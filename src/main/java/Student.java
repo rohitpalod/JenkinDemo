@@ -5,7 +5,7 @@ public class Student {
 
     private String name ;
     private String collegeId;
-
+    private String branch;
     public void setCollegeId(String collegeId) {
         this.collegeId = collegeId;
     }
@@ -20,5 +20,13 @@ public class Student {
 
     public String getName() {
         return name;
+    }
+
+    public void setBranch(String branch) {
+        this.branch = branch;
+    }
+
+    public String getBranch() {
+        return branch;
     }
 }

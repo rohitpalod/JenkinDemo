@@ -6,6 +6,7 @@ public class Demo {
         Student student =  new Student();
         student.setCollegeId("12IT44");
         student.setName("Rohit");
-        System.out.println("My name is "+ student.getName() + "and college Id is "+ student.getCollegeId());
+        student.setBranch("IT");
+        System.out.println("My name is "+ student.getName() + "and college Id is "+ student.getCollegeId() + "in branch " +student.getBranch());
     }
 }
